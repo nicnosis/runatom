@@ -1,0 +1,12 @@
+{
+  "name": "runatom-website",
+  "version": "1.0.0",
+  "description": "Run Atom - AI Automation Agency Website",
+  "scripts": {
+    "build-css": "tailwindcss -i ./src/input.css -o ./styles.css --watch",
+    "build": "tailwindcss -i ./src/input.css -o ./styles.css --minify"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.0"
+  }
+}
