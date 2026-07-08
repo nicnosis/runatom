@@ -5,16 +5,16 @@
       <circle cx="45" cy="50" r="22" fill="black"/>
     </mask>
   </defs>
-  
+
   <!-- Three nested crescents showing phases (rotated 180 degrees - waxing) -->
-  <circle cx="50" cy="50" r="38" fill="none" stroke="#FF6B35" stroke-width="3" opacity="0.3"/>
-  <circle cx="50" cy="50" r="30" fill="none" stroke="#FF6B35" stroke-width="3" opacity="0.5"/>
-  <circle cx="50" cy="50" r="22" fill="#FF6B35" mask="url(#phase-mask)"/>
-  
+  <circle cx="50" cy="50" r="38" fill="none" stroke="#2563EB" stroke-width="3" opacity="0.3"/>
+  <circle cx="50" cy="50" r="30" fill="none" stroke="#2563EB" stroke-width="3" opacity="0.5"/>
+  <circle cx="50" cy="50" r="22" fill="#2563EB" mask="url(#phase-mask)"/>
+
   <!-- Center dot -->
-  <circle cx="50" cy="50" r="6" fill="#FF6B35"/>
-  
+  <circle cx="50" cy="50" r="6" fill="#2563EB"/>
+
   <!-- Phase indicators -->
-  <circle cx="12" cy="50" r="3" fill="#FF6B35"/>
-  <circle cx="88" cy="50" r="3" fill="#FF6B35"/>
+  <circle cx="12" cy="50" r="3" fill="#2563EB"/>
+  <circle cx="88" cy="50" r="3" fill="#2563EB"/>
 </svg>
